@@ -1,0 +1,60 @@
+.skill {
+    background-color: green;
+    margin-top: 70px;
+}
+
+
+
+.skill .skillchild h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardrow {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+    }
+
+    .skillcard {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dotted {
+        width: 30px;
+        height: 110px;
+    }
+
+    .cardbody {
+        border-radius: 10px;
+        border: 1px solid white;
+        width: 70px;
+        height: 110px;
+    }
+
+    .cardimg {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .cardimg img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cardname {
+        color: white;
+        margin-top: -20px;
+    }
+
+    .cardname h2 {
+        font-size: 12px;
+        font-weight: lighter;
+
+    }
+}

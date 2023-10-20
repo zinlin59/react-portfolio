@@ -1,0 +1,81 @@
+.contactcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.contactcard img {
+    display: flex;
+    align-items: center;
+}
+
+.programmer {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactadd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.emailaddress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.phoneno {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacticons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 760px) {
+    .contactcard {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactbody {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .contactcard img {
+        display: flex;
+        align-items: center;
+    }
+}

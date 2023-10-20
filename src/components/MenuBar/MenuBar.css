@@ -1,0 +1,13 @@
+.parentheader {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.parentheader .headerstyle {
+    color: blueviolet;
+}
+
+.menuitems {
+    font-size: 20px;
+}
