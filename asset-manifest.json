@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0b6c3d98.css",
+    "main.js": "/react-portfolio/static/js/main.bab44a06.js",
+    "static/media/programmer.gif": "/react-portfolio/static/media/programmer.ce2545ff0f4128e66917.gif",
+    "static/media/aboutimg.jpg": "/react-portfolio/static/media/aboutimg.0f06a9ee3c15e947b431.jpg",
+    "static/media/react.png": "/react-portfolio/static/media/react.81ed438b18e24116794d.png",
+    "static/media/admindashboard.png": "/react-portfolio/static/media/admindashboard.162adfc9c8d707003071.png",
+    "static/media/zinlin.jpg": "/react-portfolio/static/media/zinlin.8b8df21d772c42811f03.jpg",
+    "static/media/laravel.png": "/react-portfolio/static/media/laravel.f3ad6dc33fb0206ee8c2.png",
+    "static/media/heartemoji.png": "/react-portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/glasses.png": "/react-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.0b6c3d98.css.map": "/react-portfolio/static/css/main.0b6c3d98.css.map",
+    "main.bab44a06.js.map": "/react-portfolio/static/js/main.bab44a06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b6c3d98.css",
+    "static/js/main.bab44a06.js"
+  ]
+}
