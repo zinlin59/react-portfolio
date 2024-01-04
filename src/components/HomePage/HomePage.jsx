@@ -17,7 +17,16 @@ const HomePage = () => {
         loop: {},
         typeSpeed: 150,
         deleteSpeed: 100
-    })
+    });
+    const onButtonClick = () => {
+        const pdfUrl = "zinlinCv.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "zinlinhtike-CV.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <>
             <Helmet>
@@ -167,10 +176,11 @@ const HomePage = () => {
                             <div className='grid grid-cols-2 grid-6 pt-9' style={{
                                 gap: 15
                             }}>
-                                <button class="group relative h-12 w-30 overflow-hidden rounded-lg bg-white text-lg shadow">
+                                <button onClick={onButtonClick} class="group relative h-12 w-30 overflow-hidden rounded-lg bg-white text-lg shadow">
                                     <div class="absolute inset-0 w-3 bg-purple-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                                     <span class="relative text-black group-hover:text-white">Download CV</span>
                                 </button>
+
                             </div>
                             {/* social icon link */}
                             <Jump>
@@ -250,9 +260,9 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                </section>
+                </section >
 
-            </div>
+            </div >
         </>
     )
 }

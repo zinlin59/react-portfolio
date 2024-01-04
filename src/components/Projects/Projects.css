@@ -5,7 +5,7 @@
 .card {
 
     object-fit: cover;
-    border: solid rgb(186, 210, 29) 3px;
+    border: solid rgb(66, 21, 203) 3px;
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +17,21 @@
 }
 
 .card1 {
+    background-image: url('../../imgs/portfolio.png');
+}
+
+.card2 {
     background-image: url('../../imgs/admindashboard.png');
 }
+
+.card3 {
+    background-image: url('../../imgs/dream.png');
+}
+
+.card4 {
+    background-image: url('../../imgs/weather.png');
+}
+
 
 .cardbody {
     backdrop-filter: blur(5px);

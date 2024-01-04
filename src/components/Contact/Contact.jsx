@@ -20,7 +20,7 @@ const Contact = () => {
     };
     return (
         <div>
-            <div className="flex-col items-center justify-center p-12">
+            <div className="flex-col items-center justify-center p-12" id='contact'>
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-center flex justify-center row text-2xl font-medium title-font mb-4 text-black">C<img src={Oshape} style={{ width: "35px", height: '35px' }} alt="" /> NTACT ME</h1>
                 </div>

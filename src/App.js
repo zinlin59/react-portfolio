@@ -1,4 +1,5 @@
 
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -9,6 +10,7 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <div>
+
       <HomePage />
       <Skills />
       <Projects />

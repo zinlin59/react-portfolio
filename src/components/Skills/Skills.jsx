@@ -20,7 +20,7 @@ const Skills = () => {
                         {/* card header & fond end skill title*/}
                         <div className="text-center mb-20">
                             <h1 className=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">What Skills I Have</h1>
-                            <p className="text-base leading-relaxed text-3xl mx-auto">Front-End Development Skills</p>
+                            <p className="text-base leading-relaxed text-3xl mx-auto">&lt; Front-End Development Skills /&gt;</p>
                             <div className="flex mt-6 justify-center">
                                 <div className="w-24 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                             </div>
@@ -35,7 +35,7 @@ const Skills = () => {
                                                 <img src={Html} alt="" className='sm:w-20 sm:h-20 w-24 h-24 ' />
                                             </div>
                                             <div className="grid justify-center cardname ">
-                                                <h2 className=" text-xl title-font font-medium mb-3">HTML</h2>
+                                                <h2 className="text-purple-100 text-xl title-font font-medium mb-3">HTML</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -49,7 +49,7 @@ const Skills = () => {
                                                 <img src={Css} alt="" className='sm:w-20 sm:h-20 w-24 h-24 ' />
                                             </div>
                                             <div className="grid justify-center cardname">
-                                                <h2 className=" text-xl title-font font-medium mb-3">Css</h2>
+                                                <h2 className="text-purple-100 text-xl title-font font-medium mb-3">Css</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                                                 <img src={Bootstrap} alt="" className='sm:w-20 sm:h-20 w-24 h-24 ' />
                                             </div>
                                             <div className="grid justify-center cardname">
-                                                <h2 className=" text-xl title-font font-medium mb-3">Bootstrap</h2>
+                                                <h2 className="text-purple-100 text-xl title-font font-medium mb-3">Bootstrap</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@ const Skills = () => {
                                                 <img src={Tailwind} alt="" className='sm:w-20 sm:h-20 w-24 h-24 ' />
                                             </div>
                                             <div className="grid justify-center cardname">
-                                                <h2 className=" text-xl title-font font-medium mb-3">Tailwind</h2>
+                                                <h2 className="text-purple-100 text-xl title-font font-medium mb-3">Tailwind</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -94,7 +94,7 @@ const Skills = () => {
                                                 <img src={Js} alt="" className='sm:w-20 sm:h-20 w-24 h-24 ' />
                                             </div>
                                             <div className="grid justify-center cardname">
-                                                <h2 className=" text-xl title-font font-medium mb-3">JavaScript</h2>
+                                                <h2 className="text-purple-100 text-xl title-font font-medium mb-3">JavaScript</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -108,7 +108,7 @@ const Skills = () => {
                                                 <img src={Reactjs} alt="" className='sm:w-20 sm:h-20 w-24 h-24 ' />
                                             </div>
                                             <div className="grid justify-center cardname">
-                                                <h2 className=" text-xl title-font font-medium mb-3">ReactJs</h2>
+                                                <h2 className="text-purple-100 text-xl title-font font-medium mb-3">ReactJs</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@ const Skills = () => {
 
                         {/* for back end skill title */}
                         <div className="text-center mb-20 pt-16 ">
-                            <p className="text-base leading-relaxed text-3xl mx-auto">Back-End Development Skills</p>
+                            <p className="text-base leading-relaxed text-3xl mx-auto">&lt; Back-End Development Skills /&gt;</p>
                             <div className="flex mt-6 justify-center">
                                 <div className="w-24 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                             </div>
@@ -132,7 +132,7 @@ const Skills = () => {
                                             <img src={PHP} alt="" className='w-24 h-24 ' />
                                         </div>
                                         <div className="grid justify-center cardname">
-                                            <h2 className=" text-xl title-font font-medium mb-3">PHP</h2>
+                                            <h2 className="text-purple-100 text-xl title-font font-medium mb-3">PHP</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@ const Skills = () => {
                                             <img src={Laravel} alt="" className='w-24 h-24 ' />
                                         </div>
                                         <div className="grid justify-center cardname">
-                                            <h2 className=" text-xl title-font font-medium mb-3">Laravel</h2>
+                                            <h2 className="text-purple-100 text-xl title-font font-medium mb-3">Laravel</h2>
                                         </div>
                                     </div>
                                 </div>
