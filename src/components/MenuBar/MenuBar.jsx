@@ -10,8 +10,8 @@ const MenuBar = () => {
                 <Navbar.Brand href="homepage">
                     <div className="self-center whitespace-nowrap text-xl font-semibold dark:text-white parentheader"><span className='headerstyle'>ZLH</span>tike</div>
                 </Navbar.Brand>
-                <div className="flex md:order-2">
-                    <a href="#contact"> <Button>Contact</Button></a>
+                <div className="flex md:order-2 ">
+                    <a href="#contact" > <Button className='bg-purple-500'>Contact</Button></a>
                 </div>
                 <Navbar.Collapse >
                     <Navbar.Link className='menuitems' href="homepage">

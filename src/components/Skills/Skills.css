@@ -1,8 +1,9 @@
 .skill {
-    background-color: green;
     margin-top: 70px;
 }
-
+.dotted {
+    color: black;
+}
 
 
 .skill .skillchild h1 {
@@ -27,6 +28,7 @@
     .dotted {
         width: 30px;
         height: 110px;
+        color: black;
     }
 
     .cardbody {

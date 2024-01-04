@@ -26,11 +26,10 @@ const About = () => {
 
                                 </div>
                                 <div className="md:7/12 lg:w-6/12 aboutinfo">
-                                    <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">My name is Zin Lin Htike</h2>
-                                    <p className="mt-6 ml-0 text-gray-600">Hi! there, my name is Zin Lin Htike. I am 24 year old.</p>
-                                    <p className="mt-4 text-gray-600">
+                                    <p className="mt-6 ml-0 text-gray-600 font-extrabold text-2xl">Hi! there, my name is Zin Lin Htike. I am 24 year old.</p>
+                                    <p className="mt-4 text-gray-600 font-extrabold text-lg">
                                         I am a hard working person. I am self motivated and have a can do attitude.
-                                        I graduated Bachelor of Computer Science (B.C.Sc) in 2023 at Computer University of PinLong (UCSPL).
+                                        I graduated <span className='text-purple-600'>Bachelor of Computer Science (B.C.Sc) </span> from Computer University of PangLong in 2023 (UCSPL).
                                         I studied the skills and knowledge of HTML, Css, Tailwind, Bootstrap, Javascript, ReactJs, PHP and Laravel.
 
                                     </p>

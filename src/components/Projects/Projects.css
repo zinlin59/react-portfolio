@@ -32,6 +32,10 @@
     background-image: url('../../imgs/weather.png');
 }
 
+.cardphp {
+    background-image: url('../../imgs/php1.png');
+}
+
 
 .cardbody {
     backdrop-filter: blur(5px);

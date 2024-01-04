@@ -80,8 +80,10 @@ const Contact = () => {
                                     <button
                                         className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
                                     >
-                                        Submit
+                                        Send Message
                                     </button>
+
+                                   
                                 </div>
                             </form>
                         </div>
