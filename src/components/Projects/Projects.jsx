@@ -61,11 +61,11 @@ const Projects = () => {
                                 <span class="text-xs border border-secondary/60 rounded-full px-2 py-1">CSS</span>
                                 <span class="text-xs border border-secondary/60 rounded-full px-2 py-1">PHP</span>
                             </div>
-                            <p class="text-gray-900 text-lg">   This app is Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eos nobis excepturi consectetur explicabo recusandae pariatur deserunt sequi? Atque libero impedit inventore cumque! Aliquid, delectus minus sit quos dolorem impedit. </p>
+                            <p class="text-gray-900 text-lg">   This system is essential role in the university enrollment process. The system deals with the mainteance of student information within the UCS, (PangLong). </p>
                         </div>
                         <div class="mt-auto px-3">
                             <div class="mt-auto flex justify-end text-sm space-x-2 border-t py-3 border-secondary/60">
-                                <a class="px-5 py-3 group relative bg-purple-300 text-black select-none bg-primary font-semibold rounded-md overflow-hidden hover:scale-110 outline-none active:scale-105 transition-all flex space-x-2 items-center" href="https://zinlin59.github.io/react-admindashboard/" target="_blank">
+                                <a class="px-5 py-3 group relative bg-purple-300 text-black select-none bg-primary font-semibold rounded-md overflow-hidden hover:scale-110 outline-none active:scale-105 transition-all flex space-x-2 items-center" href="https://github.com/zinlin59/php-student-affair-system" target="_blank">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
                                         <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
